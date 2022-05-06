@@ -10,6 +10,12 @@
     <Filter Include="Kernel">
       <UniqueIdentifier>{dba2aafa-ec5d-4787-8c9d-4bed69661940}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BuiltIn">
+      <UniqueIdentifier>{85496252-d41b-460d-940c-6b2dd975393b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{745cb562-0ff9-4905-8605-d6f74bef2750}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ThirdParty\kaguya.hpp">
@@ -211,6 +217,12 @@
   <ItemGroup>
     <None Include="ThirdParty\Lua\Makefile">
       <Filter>ThirdParty\Lua</Filter>
+    </None>
+    <None Include="BuiltIn\clash_random.lua">
+      <Filter>BuiltIn</Filter>
+    </None>
+    <None Include="Examples\random_example.lua">
+      <Filter>Examples</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -3,8 +3,12 @@
 int main()
 {
     kaguya::State state;
-    state.dostring("print('asd')");
+    state.dofile("./Examples/random_example.lua");
 
     getchar();
+    //state["getc"] = &getchar;
+    //state.dofile("./BuiltIn/test1.lua");
+    //state.dostring("print('asd')");
+    //state("start()");
     return 0;
 }

@@ -98,6 +98,8 @@
     <ClCompile Include="ThirdParty\Lua\lzio.c" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BuiltIn\clash_random.lua" />
+    <None Include="Examples\random_example.lua" />
     <None Include="ThirdParty\Lua\Makefile" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
